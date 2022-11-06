@@ -16,6 +16,22 @@ const getSectors = async () => {
     return response
 }
 
+const getAllCompaniesHome = async () => {
+
+    const options = {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer null"
+        }
+    }
+
+    const responseJSON = await fetch("http://localhost:6278/companies", options)
+    const response = await responseJSON.json()
+
+    return response
+}
+
 const getCompanies = async (sector) => {
 
     const options = {
@@ -423,4 +439,4 @@ const getDepartmentsUserLogged = async () => {
     return response
 }
 
-export { getCompanies, getSectors, registerUser, loginUser, loggedUserInfo, editUserInfo, coworkersList, getAllCompanies, getDeparmentsCompany, createDepartmentAdmin, usersOutOfWork, hireUser, allUsers, dimissUser, editDepartmentDescription, deleteDeparmentAdmin, getAllDepartments, editUserInfoAdmin, deleteUserFromSite, getDepartmentsUserLogged }
+export { getAllCompaniesHome, getCompanies, getSectors, registerUser, loginUser, loggedUserInfo, editUserInfo, coworkersList, getAllCompanies, getDeparmentsCompany, createDepartmentAdmin, usersOutOfWork, hireUser, allUsers, dimissUser, editDepartmentDescription, deleteDeparmentAdmin, getAllDepartments, editUserInfoAdmin, deleteUserFromSite, getDepartmentsUserLogged }

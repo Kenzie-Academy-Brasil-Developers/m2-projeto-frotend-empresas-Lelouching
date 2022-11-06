@@ -1,5 +1,5 @@
 import { deleteUserAdmin, editUserAdmin } from "./modals.js";
-import { getSectors, getCompanies, loggedUserInfo, coworkersList, getAllCompanies, getDeparmentsCompany, usersOutOfWork, hireUser, allUsers, dimissUser, editDepartmentDescription, deleteDeparmentAdmin, getAllDepartments, getDepartmentsUserLogged } from "./requests.js";
+import { getSectors, getCompanies, loggedUserInfo, coworkersList, getAllCompanies, getDeparmentsCompany, usersOutOfWork, hireUser, allUsers, dimissUser, editDepartmentDescription, deleteDeparmentAdmin, getAllDepartments, getDepartmentsUserLogged, getAllCompaniesHome } from "./requests.js";
 
 const renderSector = async () => {
 
@@ -18,7 +18,42 @@ const renderSector = async () => {
     })
     
     select.addEventListener("change", (event) => {
-        getCompanies(event.target.value)
+        if(event.target.value == "") {
+            renderAllCompaniesHome()
+        } else{
+            getCompanies(event.target.value)
+        }
+    })
+}
+
+const renderAllCompaniesHome = async () => {
+
+    const companies = await getAllCompaniesHome()
+
+    const ul = document.querySelector(".sectors-list")
+
+    ul.innerHTML = ""
+    
+    companies.map((element) => {
+        let li = document.createElement("li")
+        let companieName = document.createElement("h3")
+        let divHourSector = document.createElement("div")
+        let openHour = document.createElement("span")
+        let sector = document.createElement("span")
+
+        li.classList.add("sector-list", "flex", "flex-column", "justify-between")
+        companieName.classList.add("companie-name-home")
+        divHourSector.classList.add("div-hour-sector", "flex", "flex-column")
+        openHour.classList.add("open-hour-home")
+        sector.classList.add("sector-home")
+
+        companieName.innerText = element.name
+        openHour.innerText = `${element.opening_hours} horas`
+        sector.innerText = element.sectors.description
+
+        ul.appendChild(li)
+        li.append(companieName, divHourSector)
+        divHourSector.append(openHour, sector)
     })
 }
 
@@ -816,4 +851,4 @@ const renderUsersRegistered = async () => {
     })
 }
 
-export { renderSector, renderCompanies, renderUserInfo, renderCompaniesAdmin, renderUsersRegistered }
+export { renderSector, renderCompanies, renderAllCompaniesHome, renderUserInfo, renderCompaniesAdmin, renderUsersRegistered }
