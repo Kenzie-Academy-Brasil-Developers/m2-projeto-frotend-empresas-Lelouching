@@ -155,8 +155,6 @@ const renderUserInfo = async () => {
 
         const departmentCoworkers = await coworkersList()
 
-        console.log(departmentCoworkers)
-
         departmentCoworkers[0].users.forEach(coworker => {
             const li = document.createElement("li")
             const coworkerName = document.createElement("h4")
