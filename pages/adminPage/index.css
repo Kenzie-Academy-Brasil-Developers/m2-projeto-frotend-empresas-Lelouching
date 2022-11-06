@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    height: 5rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    width: 100%;
+}
+
+.div-site-logo{
+    gap: .75rem;
+}
+
+main{
+    padding-top: 7rem;
+}
+
+.companies-list-admin{
+    background-color: var(--color-white-2);
+    padding: 1.5rem 3rem 0 3rem;
+    margin-top: 2rem;
+    height: 19rem;
+    width: 75rem;
+    max-width: 100%;
+    overflow: auto;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.company-list-admin{
+    border-bottom: .0625rem solid var(--color-brand-1);
+    background-color: var(--color-white-1);
+    padding: 0.75rem 1.25rem 1.25rem 1.25rem;
+    width: 40%;
+    gap: 0.75rem;
+    height: fit-content;
+}
+
+.div-options-admin{
+    gap: 1.5rem;
+}
+
+.users-registered-list-admin{
+    background-color: var(--color-white-2);
+    padding: 1.5rem 3rem 0 3rem;
+    margin-top: 2rem;
+    height: 19rem;
+    width: 75rem;
+    max-width: 100%;
+    overflow: auto;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.user-registered-list-admin{
+    border-bottom: .0625rem solid var(--color-brand-1);
+    background-color: var(--color-white-1);
+    padding: 0.75rem 1.25rem 1.25rem 1.25rem;
+    width: 40%;
+    height: 7.6875rem;
+}

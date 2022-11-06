@@ -1,0 +1,187 @@
+#choose-sector{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    border: none;
+    background-color: var(--color-brand-1);
+    color: var(--color-white-1);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    outline: none;
+}
+
+.input-register{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+    width: 20.3125rem;
+    max-width: 100%;
+    padding: 1rem;
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+    border: none;
+}
+
+.input-register::placeholder{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#choose-professional-level{
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-white-1);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+}
+
+.input-login{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+    width: 20.3125rem;
+    max-width: 100%;
+    padding: 1rem;
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+    border: none;
+}
+
+.input-login::placeholder{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input-edit-user{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+    max-width: 100%;
+    padding: 1rem;
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+    border: none;
+}
+
+.input-edit-user::placeholder{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#choose-company{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 0.25rem 2rem;
+    border: none;
+    background-color: var(--color-white-1);
+    color: var(--color-black);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+    border-radius: .9375rem;
+}
+
+.input-create-deparment{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+    max-width: 100%;
+    padding: 1rem;
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+    border: none;
+}
+
+.input-create-deparment::placeholder{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#choose-company-admin{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-white-1);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+}
+
+#select-user-admin{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 26.375rem;
+    max-width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-white-1);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+}
+
+#textarea-modal-admin{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+    width: 29.5rem;
+    max-width: 100%;
+    padding: 1rem;
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+    border: none;
+    line-height: 1.3125rem;
+    resize: none;
+    height: 7.0625rem;
+}
+
+#textarea-modal-admin::placeholder{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#select-user-kind-of-work{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-white-1);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+}
+
+#select-user-professional-level{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-white-1);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    outline: rgba(0, 0, 0, 0.3) solid .0625rem;
+}

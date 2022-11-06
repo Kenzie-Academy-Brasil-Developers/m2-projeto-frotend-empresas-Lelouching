@@ -1,0 +1,207 @@
+.background-site-logo{
+    background: rgba(66, 0, 255, 0.5);
+    width: .75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+}
+
+.site-logo{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.companie-name-home{
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.open-hour-home{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.sector-home{
+    font-size: var(--font-size-7);
+    font-weight: var(--weight-4);
+    color: var(--color-brand-1);
+    padding: 0.5rem;
+    border: .0625rem solid var(--color-brand-1);
+    border-radius: 15.9375rem;
+    width: fit-content;
+}
+
+.register-yourself{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.form-text-login{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.form-login-description{
+    font-size: var(--font-size-7);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.form-text-or{
+    text-align: center;
+    font-size: var(--font-size-7);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.toast-warn-message{
+    color: var(--color-white-1);
+    font-weight: var(--weight-1);
+    font-size: var(--font-size-7);
+}
+
+.user-name{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.user-email{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.user-professional-level{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.user-kind-of-work{
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.text-not-hired{
+    font-size: var(--font-size-1);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.company-department-name{
+    font-size: var(--font-size-2);
+    font-weight: var(--weight-1);
+    color: var(--color-white-1);
+}
+
+.edit-user-text{
+    font-size: var(--font-size-1);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.deparments-admin{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.department-name-admin{
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.deparment-description-admin{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--weight-4);
+}
+
+.company-name-admin{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--weight-4);
+}
+
+.modals-title-admin{
+    font-size: 2.25rem;
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+    margin-bottom: 1rem;
+}
+
+.deparment-description-modal-admin{
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.company-name-modal-admin{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.username-department-modal-admin{
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.professiona-level-modal-admin{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.company-name-modal-admin{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.users-registered-title{
+    font-size: var(--font-size-3);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.user-registered-name{
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.user-registered-level{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.user-registered-company{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}
+
+.coworker-name{
+    font-size: .9375rem;
+    font-weight: var(--weight-1);
+    color: var(--color-black);
+}
+
+.coworker-professional-level{
+    font-size: .9375rem;
+    font-weight: var(--weight-4);
+    color: var(--color-black);
+}

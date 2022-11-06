@@ -1,0 +1,118 @@
+.button-site-1{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-brand-1);
+    background-color: var(--color-white-1);
+    border: .0625rem solid var(--color-brand-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 8.875rem;
+}
+
+.button-site-2{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-white-1);
+    border: .0625rem solid var(--color-brand-1);
+    background-color: var(--color-brand-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 8.875rem;
+}
+
+.button-site-3{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-white-1);
+    background-color: var(--color-success-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 8.875rem;
+    border: none;
+}
+
+.button-site-4{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-alert-1);
+    background-color: var(--color-white-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 8.875rem;
+    border: .0625rem solid var(--color-alert-1);
+}
+
+.button-site-1-full{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-brand-1);
+    background-color: var(--color-white-1);
+    border: .0625rem solid var(--color-brand-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-site-2-full{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-white-1);
+    border: .0625rem solid var(--color-brand-1);
+    background-color: var(--color-brand-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-site-3-full{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-white-1);
+    background-color: var(--color-success-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+.button-site-4-full{
+    font-size: var(--font-size-6);
+    font-weight: var(--weight-1);
+    color: var(--color-alert-1);
+    background-color: var(--color-white-1);
+    padding: .75rem 0;
+    cursor: pointer;
+    width: 100%;
+    border: .0625rem solid var(--color-alert-1);
+}
+
+
+.open-login-register{
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.button-close-edit-user{
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    background: none;
+    border: none;
+    color: var(--color-black);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    cursor: pointer;
+}
+
+.button-close-modal-admin{
+    position: absolute;
+    top: 8%;
+    right: 6%;
+    background: none;
+    border: none;
+    color: var(--color-black);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    cursor: pointer;
+}

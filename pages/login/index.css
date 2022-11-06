@@ -1,0 +1,100 @@
+body{
+    overflow: hidden;
+}
+
+header{
+    height: 3.75rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.div-site-logo{
+    gap: .75rem;
+}
+
+.div-login-register{
+    display: none;
+    gap: 1rem;
+}
+
+.div-login-register-modal{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color-white-1);
+    box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.12);
+    width: 100%;
+    padding: 1.5rem 0;
+    animation: loginRegister 1s ease;
+    z-index: 2;
+}
+
+.div-login{
+    position: relative;
+}
+
+.form-login{
+    position: absolute;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2.5rem 1.5rem;
+    width: 22.375rem;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.div-form-text{
+    gap: 0.75rem;
+}
+
+@media (min-width:900px) {
+
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header{
+        height: 5rem;
+    }
+
+    .div-login-register{
+        display: flex;
+
+    }
+    
+    .open-login-register{
+        display: none;
+    }
+
+    .div-login-register-modal{
+        display: none;
+    }
+
+    .form-login{
+        width: 31.625rem;
+        max-width: 100%;
+        padding: 2.5rem;
+        gap: 1.25rem;
+    }
+
+    .form-text-login{
+        font-size: var(--font-size-1);
+    }
+
+    .input-login{
+        width: 29.625rem;
+    }
+}
+
+@keyframes loginRegister {
+    0%{
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

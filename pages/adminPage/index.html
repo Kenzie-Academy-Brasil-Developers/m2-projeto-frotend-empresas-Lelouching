@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../styles/reset.css">
+        <link rel="stylesheet" href="../../styles/globalStyles.css">
+        <link rel="stylesheet" href="../../styles/buttons.css">
+        <link rel="stylesheet" href="../../styles/texts.css">
+        <link rel="stylesheet" href="../../styles/images.css">
+        <link rel="stylesheet" href="../../styles/modals.css">
+        <link rel="stylesheet" href="../../styles/inputs.css">
+        <link rel="stylesheet" href="../../styles/toast.css">
+        <link rel="stylesheet" href="../../styles/flex.css">
+        <link rel="stylesheet" href="./index.css">
+        <title>Kenzie Empresas - Dashboard</title>
+    </head>
+    <body>
+
+        <header class="flex align-i-center">
+            <nav class="container flex justify-between">
+                <div class="div-site-logo flex align-i-center">
+                    <span class="background-site-logo"></span>
+                    <a href="#" class="anchor-style-none">
+                        <h1 class="site-logo">Kenzie Empresas</h1>
+                    </a>
+                </div>
+                <button id="button-logout" class="button-site-1" type="button">Logout</button>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="flex justify-between align-i-center">
+                <h2 class="deparments-admin">Departamentos</h2>
+                <div class="div-select-company">
+                    <img class="arrow-select-admin" src="../../src/assets/img/arrow-2.svg" alt="Seta para baixo">
+                    <select name="choose-company" id="choose-company">
+                        <option value="select">Selecionar Empresa</option>
+                    </select>
+                </div>
+                <div class="div-create-company">
+                    <img class="plus-create-company" src="../../src/assets/img/plus.svg" alt="Mais">
+                    <button class="button-site-2" type="button">Criar</button>
+                </div>
+            </div>
+            <ul class="companies-list-admin flex flex-wrap flex-row justify-between"></ul>
+            <h2 class="users-registered-title">Usuários cadastrados</h2>
+            <ul class="users-registered-list-admin flex flex-wrap flex-row justify-between"></ul>
+        </main>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>

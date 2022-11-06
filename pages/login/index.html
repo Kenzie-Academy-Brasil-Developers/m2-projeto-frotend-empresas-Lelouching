@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/images.css">
+    <link rel="stylesheet" href="../../styles/modals.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/toast.css">
+    <link rel="stylesheet" href="../../styles/flex.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Kenzie Empresas - Login</title>
+</head>
+<body>
+    <header class="flex align-i-center">
+        <nav class="container flex justify-between">
+            <div class="div-site-logo flex align-i-center">
+                <span class="background-site-logo"></span>
+                <h1 class="site-logo">Kenzie Empresas</h1>
+            </div>
+            <div class="div-login-register flex align-i-center">
+                <a class="anchor-style-none" href="../../index.html">
+                    <button class="button-site-1" type="button">Home</button>
+                </a>
+                <a class="anchor-style-none" href="./pages/register/index.html">
+                    <button class="button-site-2" type="button">Cadastro</button>
+                </a>
+            </div>
+            <button class="open-login-register">
+                <img src="../../src/assets/img/see-more.svg" alt="Ver home e cadastro">
+            </button>
+        </nav>
+    </header>
+    <main>
+        <div class="div-login flex justify-center align-i-center">
+            <img class="image-men-login" src="../../src/assets/img/men-working-large.svg" alt="Homens trabalhando">
+            <form class="form-login flex flex-column" action="">
+                <div class="div-form-text flex flex-column">
+                    <h2 class="form-text-login">Login</h2>
+                    <span class="form-login-description">Preencha os campos para realizar login</span>
+                </div>
+                <input autofocus type="email" class="input-login" placeholder="Seu e-mail" required>
+                <input type="password" class="input-login" placeholder="Sua senha" required>
+                <button class="button-site-2-full" type="submit">Login</button>
+                <span class="form-text-or">ou</span>
+                <a class="anchor-style-none" href="../register/index.html">
+                    <button class="button-site-1-full" type="button">Cadastre-se</button>
+                </a>
+            </form>
+        </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

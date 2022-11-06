@@ -1,0 +1,64 @@
+.arrow-image-sector{
+    position: absolute;
+    top: 25%;
+    right: 3%;
+}
+
+.image-men-home{
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    height: 46.4375rem;
+}
+
+.image-men-register{
+    width: 100%;
+    height: 93vh;
+    object-fit: cover;
+}
+
+.image-men-login{
+    width: 100%;
+    height: 93vh;
+    object-fit: cover;
+}
+
+.image-arrow-register{
+    position: absolute;
+    right: 5%;
+    bottom: 38%;
+}
+
+.image-edit-profile{
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    width: 1.6875rem;
+    height: 1.6875rem;
+    cursor: pointer;
+}
+
+.arrow-select-admin{
+    position: absolute;
+    top: 37%;
+    right: 5%;
+}
+
+.plus-create-company{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.options-department-admin{
+    max-width: 1.875rem;
+    max-height: 1.875rem;
+    cursor: pointer;
+}
+
+.image-arrow-user-select-modal-admin{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}

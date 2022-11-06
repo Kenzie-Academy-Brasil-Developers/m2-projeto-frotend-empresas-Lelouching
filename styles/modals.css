@@ -1,0 +1,125 @@
+.edit-user-info-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(70, 35, 167, 0.13);
+}
+
+.edit-user-info{
+    position: relative;
+    background-color: var(--color-white-1);
+    width: 31.625rem;
+    gap: 1.5rem;
+    padding: 3.5rem 3rem;
+    max-width: 100%;
+}
+
+.div-edit-user{
+    gap: 1rem;
+}
+
+.form-create-department{
+    position: relative;
+    background-color: var(--color-white-1);
+    padding: 3rem 2rem;
+    gap: 1rem;
+    width: 31.625rem;
+    max-width: 100%;
+}
+
+.div-select-company{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.div-create-company{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.div-select-company-admin{
+    position: relative;
+}
+
+.form-view-department{
+    position: relative;
+    background-color: var(--color-white-1);
+    padding: 3rem 4rem;
+    width: 53.5625rem;
+    max-width: 100%;
+}
+
+.div-texts-admin{
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+
+.div-input-button-admin{
+    position: relative;
+    gap: 1rem;
+}
+
+.users-deparment-list{
+    width: 100%;
+    overflow: auto;
+    background-color: var(--color-white-2);
+    height: 18.125rem;
+    margin-top: 3rem;
+    gap: 2rem;
+    padding-left: 2.5rem;
+}
+
+.user-deparment-list{
+    gap: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-bottom: .0625rem solid var(--color-brand-1);
+    min-width: 19.125rem;
+    background-color: var(--color-white-1);
+    height: 10rem;
+}
+
+.form-edit-department{
+    position: relative;
+    background-color: var(--color-white-1);
+    padding: 3rem 2.5rem;
+    width: 31.625rem;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.div-delete-department{
+    position: relative;
+    background-color: var(--color-white-1);
+    padding: 5rem 8rem;
+    width: 30rem;
+    max-width: 100%;
+    gap: 2rem;
+    text-align: center;
+}
+
+.form-edit-user-admin{
+    position: relative;
+    background-color: var(--color-white-1);
+    padding: 3.5rem 2.5rem;
+    width: 31.625rem;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.div-select-edit-user-admin{
+    position: relative;
+}
+
+.div-delete-user-admin{
+    position: relative;
+    background-color: var(--color-white-1);
+    padding: 4.5rem 8rem;
+    width: 31.625rem;
+    max-width: 100%;
+    gap: 2.5rem;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.toast-alert{
+    background-color: var(--color-alert-1);
+}
+
+.toast-success{
+    background-color: var(--color-success-1);
+}
+
+.toast-warn{
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    border-radius: .625rem;
+    padding: 1.5rem;
+    z-index: 10;
+    text-align: center;
+    width: 180px;
+    animation: toastAnimation 2s ease;
+}
+
+@keyframes toastAnimation {
+    0% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}

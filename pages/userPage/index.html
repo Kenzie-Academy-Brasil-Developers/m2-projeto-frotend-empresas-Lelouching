@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../styles/reset.css">
+        <link rel="stylesheet" href="../../styles/globalStyles.css">
+        <link rel="stylesheet" href="../../styles/buttons.css">
+        <link rel="stylesheet" href="../../styles/texts.css">
+        <link rel="stylesheet" href="../../styles/images.css">
+        <link rel="stylesheet" href="../../styles/modals.css">
+        <link rel="stylesheet" href="../../styles/inputs.css">
+        <link rel="stylesheet" href="../../styles/toast.css">
+        <link rel="stylesheet" href="../../styles/flex.css">
+        <link rel="stylesheet" href="./index.css">
+        <title>Kenzie Empresas - Dashboard</title>
+    </head>
+    <body>
+        
+        <header class="flex align-i-center">
+            <nav class="container flex justify-between">
+                <div class="div-site-logo flex align-i-center">
+                    <span class="background-site-logo"></span>
+                    <a href="#" class="anchor-style-none">
+                        <h1 class="site-logo">Kenzie Empresas</h1>
+                    </a>
+                </div>
+                <button id="button-logout" class="button-site-1" type="button">Logout</button>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="user-info flex flex-column">
+                <h2 class="user-name"></h2>
+                <div class="div-user-info flex flex-row">
+                    <span class="user-email"></span>
+                    <span class="user-professional-level"></span>
+                    <span class="user-kind-of-work"></span>
+                </div>
+                <img class="image-edit-profile" src="../../src/assets/img/pencil-brand-edit.svg" alt="Editar perfil">
+            </div>
+            <div class="not-hired flex-none justify-center align-i-center">
+                <h2 class="text-not-hired">Você ainda não foi contratado</h2>
+            </div>
+            <div class="hired flex-none flex-column">
+                <div class="div-comapany-department-name flex justify-center align-i-center">
+                    <span class="company-department-name"></span>
+                </div>
+                <ul class="people-list-company flex"></ul>
+            </div>
+            <div class="edit-user-info-background flex-none justify-center align-i-center">
+                <form class="edit-user-info flex flex-column" action="">
+                    <button class="button-close-edit-user" type="button">X</button>
+                    <h2 class="edit-user-text">Editar perfil</h2>
+                    <div class="div-edit-user flex flex-column">
+                        <input type="text" class="input-edit-user" placeholder="Seu nome" required>
+                        <input type="email" class="input-edit-user" placeholder="Seu e-mail" required>
+                        <input type="password" class="input-edit-user" placeholder="Sua senha" required>
+                    </div>
+                    <button class="button-site-2-full" type="submit">Editar perfil</button>
+                </form>
+            </div>
+        </main>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>
