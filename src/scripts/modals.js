@@ -310,7 +310,7 @@ const editUserAdmin = (userID) => {
     optionKindOfWorkPresential.innerText = "Presencial"
     optionKindOfWorkPresential.value = "presencial"
     optionKindOfWorkHybrid.innerText = "Híbrido"
-    optionKindOfWorkHybrid.value = "híbrido"
+    optionKindOfWorkHybrid.value = "hibrido"
     optionProfessionalLevel.innerText = "Selecionar nível profissional"
     optionProfessionalLevelInternship.innerText = "Estágio"
     optionProfessionalLevelInternship.value = "estágio"
